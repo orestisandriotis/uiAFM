@@ -7,42 +7,45 @@ Orestis G. Andriotis
 Year 2017
 This project is licensed under the terms of the GNU General Public License v3.0.
 
-1. Open MATLAB and go to the working directory 
+1. unzip the "examplecurves.zip" file to a folder. This file includes 
+example AFM-recorded force curves
+
+2. Open MATLAB and go to the working directory 
 where the .m files are saved
 
-2. In the MATLAB command window type 'mainscript'
+3. In the MATLAB command window type 'mainscript'
 (without the apostrophes) and press Enter
 
-3. In the pop-up window, navigate and go to the 
+4. In the pop-up window, navigate and go to the 
 file directory where the force curves are saved 
 
-4. In the pop-up window, input the variables: 
+5. In the pop-up window, input the variables: 
 a. indenter radius (integer) 
 b. reference slope (integer) taken on glass slide
 [1+/-0.1 from calibration force curves recorded 
 on a stiff substrate eg. glass, mica]
-c. the Poisson’s ratio of the sample (integer) 
+c. the Poissonâ€™s ratio of the sample (integer) 
 d. filename (structure)
-e. type ‘Y’ or ‘N’ (without the apostrophes, structure) 
+e. type â€˜Yâ€™ or â€˜Nâ€™ (without the apostrophes, structure) 
 for whether a holding time was applied or not, respectively 
 
-and press ‘OK’
+and press â€˜OKâ€™
 
-5. Review and select the force curves for further analysis. 
+6. Review and select the force curves for further analysis. 
 In the pop-up window you will be able to review all the force 
-curves and in a second pop-up window select ‘Yes’ or ‘No’ for 
+curves and in a second pop-up window select â€˜Yesâ€™ or â€˜Noâ€™ for 
 whether to include or exclude the force curve in the analysis. 
-If ‘Yes’ then the axes are coloured blue and if ‘No’ then the 
+If â€˜Yesâ€™ then the axes are coloured blue and if â€˜Noâ€™ then the 
 axes are coloured red. The user need to justify the reason why
 a force curve has been discarded from analysis (i.e. contact point
 has been wrongly defined etc.) 
 
-6. Type the size of the figures in centimeters to be archived.
+7. Type the size of the figures in centimeters to be archived.
 These are figures of force curves for post-process reviewing
 
-7. Type the portion of the upper part of the unloading curve to 
+8. Type the portion of the upper part of the unloading curve to 
 be analysed with least-squares linear fit to calculate the DZ 
 slope. Usually 0.25, i.e. 25% of the curve, is selected. 
 
-8. The user is finally asked to select the desirable units 
+9. The user is finally asked to select the desirable units 
 (kPa, MPa or GPa) of the elastic modulus
